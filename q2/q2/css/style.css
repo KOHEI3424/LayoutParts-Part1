@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 回答はここから */
-.card {
+.card{
   display: flex;
   justify-content: center;
 }
@@ -15,4 +15,8 @@
   border-radius: 13px;
   padding: 10px;
   background: #d2b48c;
+}
+
+li:last-child {
+  margin-right: 0px;
 }
