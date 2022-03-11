@@ -9,7 +9,7 @@
 .card_list {
   list-style: none;
   width: 200px;
-  margin: 30px;
+  margin-right: 60px;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
@@ -17,6 +17,6 @@
   background: #d2b48c;
 }
 
-li:last-child {
+.card_list:last-child {
   margin-right: 0px;
 }
